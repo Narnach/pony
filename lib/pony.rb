@@ -33,6 +33,7 @@ module Pony
 		mail.from = options[:from] || 'pony@unknown'
 		mail.subject = options[:subject]
 		mail.body = options[:body] || ""
+		mail.set_content_type (options[:content_type] || 'text/plain').split('/')
 		(options[:attachments] || []).each do |name, body|
 			attachment = TMail::Mail.new
 			attachment.transfer_encoding = "base64"
