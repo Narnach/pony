@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pony}
-  s.version = "0.3.2"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adam Wiggins", "David Dollar"]
@@ -16,8 +16,11 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "README.rdoc",
+    ".document",
+     ".gitignore",
+     "README.rdoc",
      "Rakefile",
+     "VERSION",
      "lib/pony.rb",
      "pony.gemspec",
      "spec/base.rb",
