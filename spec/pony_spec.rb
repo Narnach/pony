@@ -36,6 +36,14 @@ describe Pony do
 			Pony.build_tmail({}).from.should == [ 'pony@unknown' ]
 		end
 
+		it "content_type" do
+			Pony.build_tmail(:content_type => 'text/html').content_type.should == 'text/html'
+		end
+
+		it "content_type (default)" do
+			Pony.build_tmail({}).content_type.should == 'text/plain'
+		end
+
 		it "subject" do
 			Pony.build_tmail(:subject => 'hello').subject.should == 'hello'
 		end
