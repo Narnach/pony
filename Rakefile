@@ -29,7 +29,7 @@ require 'rake/clean'
 require 'rake/gempackagetask'
 require 'fileutils'
 
-version = "0.3"
+version = "0.3.1"
 name = "Narnach-pony"
 
 spec = Gem::Specification.new do |s|
