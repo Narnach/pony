@@ -32,11 +32,13 @@ You can also specify options for SMTP:
 == Meta
 
 Written by Adam Wiggins
+This fork is maintained by Wes Oldenbeuving. All praise goes to Adam, all problems are reported to me :)
 
 Patches contributed by: Mathieu Martin, Arun Thampi, Thomas Hurst, Stephen
 Celis, Othmane Benkirane, and Neil Mock
 
 Released under the MIT License: http://www.opensource.org/licenses/mit-license.php
 
-http://github.com/adamwiggins/pony
+Adam's Pony: http://github.com/adamwiggins/pony
 
+My fork: http://github.com/Narnach/pony

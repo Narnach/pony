@@ -30,17 +30,16 @@ require 'rake/gempackagetask'
 require 'fileutils'
 
 version = "0.3"
-name = "pony"
+name = "Narnach-pony"
 
 spec = Gem::Specification.new do |s|
 	s.name = name
 	s.version = version
 	s.summary = "Send email in one command: Pony.mail(:to => 'someone@example.com', :body => 'hello')"
-	s.description = "Send email in one command: Pony.mail(:to => 'someone@example.com', :body => 'hello')"
-	s.author = "Adam Wiggins"
-	s.email = "adam@heroku.com"
-	s.homepage = "http://github.com/adamwiggins/pony"
-	s.rubyforge_project = "pony"
+	s.description = "My fork of Adam Wiggins' Pony project."
+	s.author = "Wes Oldenbeuving"
+	s.email = "wes@narnach.com"
+	s.homepage = "http://github.com/Narnach/pony"
 
 	s.platform = Gem::Platform::RUBY
 	s.has_rdoc = false
